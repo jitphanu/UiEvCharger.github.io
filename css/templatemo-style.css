@@ -15,7 +15,7 @@ https://templatemo.com/tm-521-get-ready
     margin: 0;
     -webkit-perspective: 1000;
     font-family: 'th-sarabun', sans-serif;
-    background: #303030;
+    background: whitesmoke;
   }
 
   body, html {
@@ -36,7 +36,7 @@ https://templatemo.com/tm-521-get-ready
   }
 
   h1 {
-    color: #ffffff;
+    /* color: #ffffff; */
     font-size: 2em;
   }
 
@@ -90,7 +90,8 @@ https://templatemo.com/tm-521-get-ready
   }
 
   .overlay {
-    background: linear-gradient(to top right, #d2b48c, #000000);
+    background: #ffffff;
+    /* background: linear-gradient(to top right, whitesmoke, #000000); */
     opacity: 0.9;
     position: absolute;
     top: 0;
@@ -358,7 +359,7 @@ https://templatemo.com/tm-521-get-ready
   }
 
   .countdown li {
-    color: #ffffff;
+    /* color: #ffffff; */
     list-style: none;
     display: inline-block;
     margin: 0 20px;
