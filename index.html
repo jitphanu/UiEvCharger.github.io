@@ -14,7 +14,7 @@
   margin: 0;
   padding: 0;
 }
-html {
+/* html {
   font-size: 15px;
 }
 body {
@@ -27,7 +27,14 @@ body {
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
+} */
+  html {
+  background: whitesmoke;
+  /* font-size: 62.5%; */
+  height: 100%;
+  display: flex; 
 }
+body { width: 100%; margin: auto; }
 header {
   color: hsl(233, 13%, 49%);
   margin: 3.3rem 0;
@@ -36,7 +43,7 @@ header {
   justify-content: center;
   align-items: center;
 }
-.toggle {
+/* .toggle {
   margin-top: 2rem;
   color: hsl(234, 14%, 74%);
   display: flex;
@@ -58,8 +65,8 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  /* height: 25px;
-  width: 50px; */
+  height: 25px;
+  width: 50px;
   height: 1.6rem;
   width: 3.3rem;
   border-radius: 1.6rem;
@@ -125,7 +132,7 @@ ul li.price {
 
 .card.active .price {
   color: #fff;
-}
+} */
 
 .btn {
   margin-top: 1rem;
@@ -149,7 +156,7 @@ ul li.price {
   background: #fff;
   color: hsl(237, 63%, 64%);
 }
-.bottom-bar {
+/* .bottom-bar {
   border-bottom: 2px solid hsla(240, 8%, 85%, 0.582);
 }
 .card.active .bottom-bar {
@@ -161,7 +168,7 @@ ul li.price {
 
 a{
   text-decoration: none;
-}
+} */
 
 .option-group {
   width: 90%;
@@ -496,12 +503,13 @@ a{
   
     </div>
   </div>
-  <header style="margin: 2rem 0;"></header>
-  <h1>
-    <a href="ScanQrCode.html">
-      <button class="btn"><i class="fa fa-download"></i>ตกลง</button>
-    </a>
-  </h1>
+  <header>
+    <h1>
+      <a href="ScanQrCode.html">
+        <button class="btn"><i class="fa fa-download"></i>ตกลง</button>
+      </a>
+    </h1>
+  </header>
   <!-- <h1>
     <a download="image-qr-code.png" href="images/" title="ImageName">
       <button class="btn"><i class="fa fa-download"></i>ยกเลิก</button>
