@@ -282,17 +282,20 @@ a{
 }
 
 .option:last-child {
+  background-color: #fff;
   .option__label { transform: translateX(0%) scale(0.7); }
   .option__indicator { transform: translateX(-20%); }
 }
 
 .option-input:checked ~ .option {
+  background-color: #fff;
   transform: translateX(-20%) translateX(0.2em);
   .option__indicator { transform: translateX(0%); }
   .option__label { transform: translateX(40%) scale(0.7); }
 }
 
 .option-input:first-child:checked ~ .option {
+  background-color: #fff;
   transform: translateX(20%) translateX(-0.2em);
   .option__indicator { transform: translateX(-40%); }
   .option__label { transform: translateX(0%) scale(0.7); }
@@ -300,13 +303,14 @@ a{
 
 .option-input:nth-child(1):checked ~ .option:nth-of-type(1),
 .option-input:nth-child(2):checked ~ .option:nth-of-type(2) {
+  background-color: rgba(163, 168, 240, 1) ;
   opacity: 1;
   .option__indicator { transform: translateX(0); &::after { transform: scale(1); } }
   .option__label,
   .option__label::after { transform: scale(1); }
 }
 
-@media (max-width: 280px) {
+/* @media (max-width: 280px) {
   ul {
     margin: 1rem;
   }
@@ -383,7 +387,7 @@ a{
   .cards .card.active {
     transform: scale(1);
   }
-}
+} */
 
 </style>
 </head>
@@ -443,6 +447,50 @@ a{
         <span class="option__indicator"></span>
         <span class="option__label">
           20<sub>&#3647;</sub>
+        </span>
+      </label>
+  
+    </div>
+  </div>
+  <div class="option-group">
+    <div class="option-container">
+  
+      <input class="option-input" id="option-5" type="radio" name="options" />
+      <input class="option-input" id="option-6" type="radio" name="options" />
+      
+      <label class="option" for="option-5">
+        <span class="option__indicator"></span>
+        <span class="option__label">
+          25<sub>&#3647;</sub>
+        </span>
+      </label>
+  
+      <label class="option" for="option-6">
+        <span class="option__indicator"></span>
+        <span class="option__label">
+          30<sub>&#3647;</sub>
+        </span>
+      </label>
+  
+    </div>
+  </div>
+  <div class="option-group">
+    <div class="option-container">
+  
+      <input class="option-input" id="option-7" type="radio" name="options" />
+      <input class="option-input" id="option-8" type="radio" name="options" />
+      
+      <label class="option" for="option-7">
+        <span class="option__indicator"></span>
+        <span class="option__label">
+          35<sub>&#3647;</sub>
+        </span>
+      </label>
+  
+      <label class="option" for="option-8">
+        <span class="option__indicator"></span>
+        <span class="option__label">
+          40<sub>&#3647;</sub>
         </span>
       </label>
   
