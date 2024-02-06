@@ -1,4 +1,4 @@
-let page = "qrcode";
+let page = "main";
   if(page == "main"){
     document.getElementById('html').innerHTML = `<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 <link rel="preconnect" href="https://fonts.gstatic.com" />
